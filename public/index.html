@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Bot</title>
+  <style>
+    body {
+      
+      display: flex; /* Enable flexbox for centering */
+      justify-content: center; /* Center content horizontally */
+      align-items: center; /* Center content vertically */
+      margin: 0; /* Remove default margin from body */
+      height: 100vh; /* Set body height to 100% viewport height */
+      background-image: url("./pizza.jpg"); /* Add background image here */
+      background-size: cover;  /* Optional: Adjust image size */
+      background-repeat: no-repeat;  /* Optional: Control image repetition */
+      background-position: center;  /* Optional: Position image */
+    }
+
+    iframe {
+      border: none; /* Remove default iframe border */
+      position: absolute; 
+    left    : 800px;
+    right   : 0px; 
+    top     : 120px;
+    bottom  : 0px; 
+    }
+  </style>
+  </head>
+  <body>
+    <iframe width="480" height="480" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/50d02072-cb3e-4f00-8d8a-277ce98057f6"></iframe>
+
+    <noscript></noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
